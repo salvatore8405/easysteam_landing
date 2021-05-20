@@ -63,6 +63,24 @@ $(document).ready(function () {
          
       });
 
+
+
+      // Аккордеон главного меня для мобильной версии
+
+      $('.toggle-menu').on('click', function (event) {
+      event.preventDefault();
+
+      $('.header_nav').slideToggle();
+
+      if ($('.toggle-menu').hasClass('toggle-menu-open')) {
+         $('.toggle-menu').removeClass('toggle-menu-open');
+         return;
+      }
+
+      $(this).addClass('toggle-menu-open');
+
+   });
+
   });
 
 
