@@ -1,0 +1,1224 @@
+/* open-sans-300 - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-300italic - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 300;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-italic - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 400;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600italic - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 600;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700italic - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 700;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-800 - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-800italic - latin_cyrillic */
+@font-face {
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 800;
+src: local(''),
+        url('../fonts/open-sans-v18-latin_cyrillic-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v18-latin_cyrillic-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.container {
+    max-width: 1272px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* ШРИФТЫ */
+
+h1 {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/* ШАПКА САЙТА */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #333333;
+    border-bottom: 3px solid red;
+}
+
+.header_wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.header_nav {
+    width: 65%;
+}
+
+.header_nav a {
+    display: inline-block;
+    padding: 20px 10px 17px;
+
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header_nav a:hover {
+    color: red;
+}
+
+.header_contacts {
+    text-align: right;
+    width: 35%;
+    color: #fff;
+}
+
+.header_contacts p {
+    margin: 0;
+    padding: 14px 8px 14px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.header_contacts a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header_contacts a:hover {
+    color: red;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+/* БЛОК 1 - Главное описание */
+
+.desc {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-image: url(../images/banner_sec1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.desc_wrap {
+    width: 45%;
+    color: #fff;
+}
+
+.desc_wrap p {
+    font-size: 18px;
+    opacity: 90%;
+}
+
+/* БЛОК 2 - Особенности */
+
+.prop_wrap {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.slider_prop {
+    width: 45%;
+    height: 350px;
+    padding: 150px 20px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.slider_prop:hover {
+    cursor: pointer;
+}
+
+.slider_prop p {
+    opacity: 90%;
+}
+
+.welding {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/slider_svarka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.steel {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/slider_steel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.closed {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/slider_closed.jpg);
+    background-repeat: no-repeat; 
+}
+
+/* Кнопки слик слайдера */
+
+.slider {
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    font-size: 0;
+    border-radius: 50%;
+} 
+
+.slick-prev {
+    right: 100%;
+    top: 44%;
+
+    background-image: url(../images/icon-arrow-left.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    
+    cursor: pointer;
+    border: none;
+}
+
+.slick-next {
+    left: 100%;
+    top: 44%;
+
+    background-image: url(../images/icon-arrow-right.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    
+    cursor: pointer;
+    border: none;
+}
+
+/* БЛОК 3 - Режимы работы */
+
+.modes_wrap {
+    display: flex;
+}
+
+.video_modes {
+    position: relative;
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px;
+    margin-right: 60px;
+    padding: 0 15px;
+}
+
+.video_modes img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.promo_video_video {
+    border-radius: 10px;
+}
+
+.bg_dark {
+    border-radius: 10px;
+    
+    background-color: rgba(45, 45, 45, 0.8); 
+    
+}
+
+.bg_dark {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 30px;
+    background-color: rgba(0,0,0,0.2);  
+    z-index: 4;
+    border-radius: 10px;
+}
+
+.promo_video_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 5;
+    
+    
+    background-image: url(../images/play_btn_2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    font-size: 0;
+}
+
+.table_modes {
+    width: 50%;
+    margin: 10px;
+}
+
+.table_modes p {
+    margin-bottom: 0;
+}
+
+.table_modes table {
+    width: 100%;
+}
+
+.table_modes table td {
+    padding: 6px;
+}
+
+.table_modes table td:nth-child(1) {
+    background-color: #e7e4e4;
+}
+
+.table_red {
+    color: red;
+    text-align: center;
+}
+
+.table_strong {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* БЛОК 4 - Продукция */
+
+.goods {
+    padding-top: 50px;
+}
+
+.goods_wrap {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.goods_block {
+    width: 49%;
+    display: flex;
+
+    background-color: #e7e4e4;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+}
+
+.goods_block:nth-child(2n+1) {
+    margin-right: 20px;
+}
+
+.goods_desc {
+    width: 50%;
+    padding: 20px;
+}
+
+.goods_desc h3 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.goods_desc h3:hover {
+    color: #b42222;
+}
+
+.stove_classes {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.stove_classes li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: 700;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+}
+
+.stove_classes li:hover {
+    background-color: #fff;
+}
+
+.stove_volume {
+    padding-left: 0;
+    margin: 0;
+    
+}
+
+.stove_volume li {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.stove_volume_red {
+    color: #b42222;
+    font-weight: 600;
+}
+
+.goods_img {
+    width: 50%;
+    padding: 30px;
+}
+
+.goods_img_big {
+    padding-top: 60px;
+}
+
+.goods_img img {
+    display: block;
+    width: 100%;
+    transition: 0.8s;
+}
+
+.goods_img img:hover {
+    transform: scale(1.1);
+}
+
+/* БЛОК 5 - Доп оборудование */
+
+.adds {
+    padding-top: 50px;
+}
+
+.adds_wrap {
+    display: flex;
+    background-color: #e7e4e4;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.add_list {
+    width: 50%;
+    position: relative;
+}
+
+.add_list h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.add_list h2:hover {
+    color: #b42222;
+}
+
+.add_list h2::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid gray;
+    width: 500px;
+    margin: 5px 0 10px;
+}
+
+.add_list p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 80%;
+}
+
+.add_list ul {
+    margin-top: 40px;
+}
+
+.add_list li {
+    margin: 10px;
+    /* list-style-type: none; */
+}
+
+.add_list_item {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Классы для конвеционных изделий */
+
+.add_item_box {
+    background: #fff;
+    border-radius: 10px;
+
+    display: none;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 175px; 
+    left: 315px;
+    padding: 10px;
+}
+
+.add_item_box p {
+    font-size: 12px;
+    margin: auto;
+}
+
+.add_item_box span {
+    font-weight: 600;
+}
+
+.add_item_box img {
+    display: block;
+    width: 130px;
+    height: 70px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+/* Классы для изделий из камня */
+
+.add_item_box_stone {
+    display: none;
+    bottom: 155px; 
+}
+
+.add_item_box_stone img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Классы для баков */
+
+.add_item_box_tanks {
+    display: none;
+    bottom: 135px; 
+}
+
+.add_item_box_tanks img {
+    width: 130px;
+    height: 100px;
+}
+
+/* Классы для горелок */
+
+.add_item_box_gas {
+    display: none;
+    bottom: 115px; 
+}
+
+.add_item_box_gas img {
+    width: 130px;
+    height: 100px;
+}
+
+/* Классы для экономайзеров */
+
+.add_item_box_econom {
+    display: none;
+    bottom: 95px; 
+}
+
+.add_item_box_econom img {
+    width: 130px;
+    height: 100px;
+}
+
+/* Классы для листов */
+
+.add_item_box_paper {
+    display: none;
+    bottom: 75px; 
+}
+
+.add_item_box_paper img {
+    width: 130px;
+    height: 100px;
+}
+
+/* Классы для камней в каменке */
+
+.add_item_box_stone_for_stove {
+    display: none;
+    bottom: 55px; 
+}
+
+.add_item_box_stone_for_stove img {
+    width: 130px;
+    height: 80px;
+}
+
+/* Классы для теплообменников */
+
+.add_item_box_heatchanger {
+    display: none;
+    bottom: 35px; 
+}
+
+.add_item_box_heatchanger img {
+    width: 130px;
+    height: 90px;
+}
+
+/* Классы для дымоходов */
+
+.add_item_box_pipes {
+    display: none;
+    bottom: 15px; 
+}
+
+.add_item_box_pipes img {
+    width: 130px;
+    height: 100px;
+}
+
+
+/* Класс, который становится виден (по клику) */
+
+.visible_class {
+    display: flex;
+}
+
+.add_list_item:hover {
+    font-weight: 600;
+}
+
+.add_list_item_active {
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+    color: #b42222;
+}
+
+.adds_img {
+    width: 50%;
+}
+
+.adds_img img {
+    display: block;
+    width: 100%;
+}
+
+
+
+/* БЛОК 6 - Печи в наличии */
+
+.gall {
+    background-color: #e7e4e4;
+}
+
+.gall_wrap {
+    margin-top: 50px;
+    padding: 50px 0 30px;
+}
+
+.gall_wrap h2{
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.gall_wrap p{
+    margin-bottom: 0;
+}
+
+.products_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_stock {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 48%;
+    margin-top: 20px;
+}
+
+.product_stock:nth-child(2n+1) {
+    margin-right: 30px;
+}
+
+.product_desc {
+    width: 50%;
+}
+
+.product_desc h3 {
+    padding-left: 20px;
+}
+
+.product_desc h3:hover {
+    color: #b42222;
+}
+
+.product_desc p {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.product_desc ul {
+    font-weight: 300;
+    margin: 0;
+}
+
+.product_desc table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.product_desc td:nth-child(2n+1) {
+    width: 60%;
+}
+
+.product_desc td:nth-child(2n) {
+    font-weight: 600;
+    padding-left: 10px;
+    width: 40%;
+}
+
+.product_desc tr:nth-child(2n+1) {
+    background-color: #e7e4e4;
+}
+
+.price_stock {
+    display: block;
+    margin: 20px;
+    color: red;
+    width: 50%;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.price_stock:hover {
+    background-color: #b42222;
+    color: #fff;
+}
+
+.price_stock p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.product_img {
+    width: 50%;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.product_img img {
+    display: block;
+    width: 100%;
+    transition: 0.8s;
+}
+
+.product_img img:hover {
+    transform: scale(1.1);
+}
+
+/* Кнопка скролла вверх */
+
+.scroll_button_area {
+    position: fixed;
+    z-index: 500;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    right: 15px;
+    bottom: 50px;
+    border: 2px solid rgb(32, 31, 31);
+    color: #fff;
+  }
+  
+  .scroll_button_area:hover {
+    background-color: #e41c1c; 
+  }
+
+.scroll_btn {
+    display: block;
+    width: 100%;
+}
+
+/* Подвал */
+
+footer {
+    background-color: #333333;
+    border-top: 3px solid red;
+    padding: 20px;
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_wrap p {
+    color: #e7dfdf;
+    font-weight: 400;
+}
+
+.footer_wrap a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footer_wrap a:hover {
+    color: red;
+}
+
+.footer_logo p:nth-child(1) {
+    font-weight: 800;
+}
+
+.footer_map p {
+    font-weight: 800;
+}
+
+.footer_contacts p:nth-child(1) {
+    font-weight: 800;
+}
+
+.footer_contacts {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* АДАПТИВ под Смартфоны 320px */
+
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 42px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    /* Шапка */
+
+    .header_wrap {
+        display: block;
+    }
+
+    .header_nav {
+        width: 100%;
+        display: none;
+    }
+
+    .header_nav a {
+        display: block;
+        width: 100%;
+    }
+
+    .header_contacts_mobile {
+        display: none;
+    }
+
+    .toggle-menu {
+        position: relative;
+        display: inline-block;
+        width: 21px;
+        height: 21px;
+        border: none;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        background-color: transparent;
+        transition: all .3s;
+
+        margin: 10px;
+        margin-left: 92%;
+    }
+    
+    .toggle-menu:before,
+    .toggle-menu:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        margin: auto;
+        background-color: #fff;
+        transition: all .3s;
+    }
+
+    .toggle-menu-open {
+        border-color: transparent;
+    }
+    
+    .toggle-menu-open:before {
+        transform: rotate(-45deg);
+    }
+    
+    .toggle-menu-open:after {
+        transform: rotate(45deg);
+    }
+
+
+    /* Блок 1 */
+
+    .desc {
+        padding-bottom: 20px;
+    }
+
+    .desc_wrap {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .desc_wrap p {
+        font-size: 14px;
+    }
+
+
+
+    /* Блок 2 */
+
+    .prop {
+        display: none;
+    }
+
+
+
+    /* Блок 3 */
+
+    .modes {
+        padding-top: 20px;
+    }
+
+    .modes_wrap {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    .video_modes {
+        width: 100%;
+        
+        margin: 0;
+    }
+
+    .table_modes {
+        width: 100%;
+    }
+
+    .table_modes p {
+        font-size: 14px;
+    }
+
+    .table_column, .table_red, .table_strong {
+        font-size: 14px;
+    }
+
+    .promo_video_video {
+        width: 100%;
+        height: 180px;
+    }
+
+
+    /* БЛОК 4 - Продукция */
+
+    .goods {
+        padding-top: 10px;
+    }
+    
+    .goods_wrap {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .goods_block {
+        width: 100%;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .goods_block:nth-child(2n+1) {
+        margin-right: 10px;
+    }
+
+    .goods_desc {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .goods_desc h3 {
+        font-size: 18px;
+        border: 0px solid #000;
+    }
+
+    .stove_classes li {
+        font-size: 14px;
+    }
+
+    .stove_volume li {
+        font-size: 14px;
+    }
+
+    .goods_img {
+        width: 100%;
+        padding-top: 0;
+    }
+
+
+    /* БЛОК 5 - Доп оборудование  */
+
+    .adds {
+        padding-top: 20px;
+    }
+
+    .adds_wrap {
+        flex-wrap: wrap;
+    }
+
+    .add_list h2::after {
+        display: none;
+    }
+
+    .add_list {
+        width: 100%;
+    }
+
+    .add_list h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .add_list ul {
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .add_list_item {
+        font-size: 14px;
+    }
+
+    .add_item_box {
+        bottom: 45px; 
+        left: 0px;
+    }
+
+    .add_item_box_stone {
+        bottom: 38px; 
+    }
+
+    .add_item_box_tanks {
+        bottom: 38px; 
+    }
+
+    .add_item_box_gas {
+        bottom: 25px; 
+    }
+
+    .add_item_box_econom {
+        bottom: 145px; 
+    }
+
+    .add_item_box_paper {
+        bottom: 115px;
+    }
+
+    .add_item_box_stone_for_stove {
+        bottom: 85px;
+    }
+
+    .add_item_box_heatchanger {
+        bottom: 65px;
+    }
+
+    .add_item_box_pipes {
+        bottom: 35px;
+    }
+
+    .adds_img {
+        width: 100%;
+    }
+
+
+
+    /* БЛОК 6 - Печи в наличии */
+
+    .gall_wrap {
+        padding-top: 10px;
+    }
+
+    .product_stock {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .product_stock:nth-child(2n+1) {
+        margin-right: 0px;
+    }
+
+    .product_desc {
+        width: 100%;
+    }
+
+    .product_desc h3, .product_desc p {
+        padding-left: 0;
+    }
+
+    .product_desc table {
+        margin-left: 0;
+    }
+
+    .price_stock {
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .product_img {
+        width: 100%;
+    }
+
+    .product_img {
+        padding-top: 0;
+    }
+
+
+    /* Подвал */
+
+    .fcont {
+        padding: 0;
+    }
+
+    .footer_wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_map {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+}
